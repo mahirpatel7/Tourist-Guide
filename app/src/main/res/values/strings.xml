@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TG Apk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="places_api_key">AIzaSyCHu9z7gFMbto58Is367khp-6h0drG3z5k</string>
+    <string name="diff_places_api">AIzaSyAmXhWCESR8EH5eTjd_13jo9c92VenSgp4</string>
+</resources>

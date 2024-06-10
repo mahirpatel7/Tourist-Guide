@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739490819521",
+    "project_id": "deft-processor-396608",
+    "storage_bucket": "deft-processor-396608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739490819521:android:e1ee4f6d2b620cbdf5d340",
+        "android_client_info": {
+          "package_name": "com.mpdeveloper.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5MK8HSs3tRXqwFHtBE4G6G5MPDQlzlxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

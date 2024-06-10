@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vf"
+        android:layout_marginTop="-2dp"
+        android:background="#8F8E8E"
+        android:queryHint="Enter the city name here"
+        >
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchView"
+        android:layout_above="@id/bottomNavigationView"
+        android:background="#2E2E2E"
+        />
+
+    <ViewFlipper
+        android:id="@+id/vf"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:background="#FFFFFF"
+        android:paddingTop="15dp"
+        android:layout_below="@id/tv2"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:paddingBottom="15dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_ahmedabad1">
+
+        </ImageView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_gandhinagar"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_dwarka"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_junagadh"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_kutch"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_mehsana"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_narmada"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_patan"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/updated_vadodra1"></ImageView>
+
+
+    </ViewFlipper>
+
+    <!--    <ViewFlipper-->
+    <!--        android:id="@+id/viewFlipper"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="272dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="0dp"-->
+    <!--        android:layout_below="@+id/tv2">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="275dp"-->
+    <!--            android:src="@drawable/img1" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:src="@drawable/img2" />-->
+
+    <!--        &lt;!&ndash; Add more ImageViews for additional views &ndash;&gt;-->
+
+    <!--    </ViewFlipper>-->
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:ignore="InvalidId"
+        android:text="My Tourist Guide"
+        android:textSize="25dp"
+        android:paddingTop="11dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:background="#38B6FF">
+
+    </TextView>
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+</RelativeLayout>

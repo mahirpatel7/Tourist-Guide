@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="55dp"
+            android:paddingTop="12dp"
+            android:text="My Tourist Guide"
+            android:textColor="@color/black"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/aboutusarrowback"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrowback"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Hello there, we are a group of student forming a team to accomplish the project work of this tourist Guide app Under the guidance of Riya Gohil Mam."
+            android:textSize="25dp"
+            android:justificationMode="inter_word"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/mytoutv"
+            android:id="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="33dp"
+            android:text="Details Of Group Members"
+            android:textSize="33dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="12dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="50dp"
+            android:layout_below="@+id/tv2">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Name : "
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_toRightOf="@+id/name1"
+                    android:text="Kavan Patel"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/enroll1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Enrollment no. : "
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/sahil_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toRightOf="@+id/enroll1"
+                    android:text="21BECE30204"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/email1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="E-mail : "
+                    android:textSize="22dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sahil_en"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/email1"
+                    android:text="kavanpatel311@gmail.com"
+                    android:textSize="22dp"></TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:id="@+id/cv2"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="12dp"
+            app:cardCornerRadius="50dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/name2"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="12dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/name2"
+                    android:text="Keval Patel"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enrollment no. : "
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/enroll2"
+                    android:layout_below="@+id/name2"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="12dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/anshul_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toRightOf="@+id/enroll2"
+
+                    android:text="21BECE30205"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/email2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll2"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="E-mail : "
+                    android:textSize="22dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/anshul_en"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/email2"
+                    android:layout_marginTop="20dp"
+                    android:text="kevalpatel12@gmail.com"
+                    android:textSize="22dp"></TextView>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/cv2"
+            app:cardCornerRadius="50dp"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="12dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/cv3">
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Name : "
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/name3"
+                    android:text="Mahir Patel"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/enroll3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name3"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Enrollment no. : "
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/deep_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toRightOf="@+id/enroll3"
+
+                    android:text="21BECE30210"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/email3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll3"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="E-mail : "
+                    android:textSize="22dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/deep_en"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/email3"
+                    android:text="patelmahir2004@gmail.com"
+                    android:textSize="22dp"></TextView>
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:id="@+id/cv4"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="50dp"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="12dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/cv3">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Name : "
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@id/name4"
+                    android:layout_marginTop="40dp"
+                    android:text="Ruchit Dudhrejiya"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/enroll4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name4"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Enrollment no. : 222SBECE30005"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/tirth_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toRightOf="@+id/enroll4"
+
+                    android:text="20BECE30054"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:id="@+id/email4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/enroll4"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:text="E-mail : "
+                    android:textSize="22dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tirth_en"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/email4"
+                    android:text="tirthjoshi5253@gmail.com"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="40dp"></TextView>
+
+
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

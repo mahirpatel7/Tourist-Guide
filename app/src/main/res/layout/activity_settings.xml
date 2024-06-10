@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ScrollBackground"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#38B6FF"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/settingsrarrowback"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arrowback"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+    
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Version"
+            android:layout_marginLeft="20dp"
+            style="@style/TextColor"
+            android:paddingTop="7dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="1.0"
+            android:textSize="25dp"
+            style="@style/TextColor"
+            android:layout_marginLeft="210dp"
+            android:paddingTop="7dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Theme"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linear1"
+        style="@style/TextColor"
+        tools:ignore="NotSibling" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchMode"
+        android:layout_width="80dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track" />
+
+</RelativeLayout>
