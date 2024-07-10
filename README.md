@@ -18,15 +18,15 @@
 
 # 2. Image of the Tourist Places videos :
    
-    ![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/1e6eaa82-d677-4b22-98a6-05cd249270e5)
+![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/1e6eaa82-d677-4b22-98a6-05cd249270e5)
 
 # 3. Image of the Bookings of the hotels, flights, etc :
    
-    ![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/dcb721ce-ae61-4b13-9252-30d9ee091623)
+![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/dcb721ce-ae61-4b13-9252-30d9ee091623)
 
 # 4. Image of the Project group members :
    
-   ![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/9a9f6f27-a058-4257-b43a-ff885e233035)
+![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/9a9f6f27-a058-4257-b43a-ff885e233035)
 
 
 
