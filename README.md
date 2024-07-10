@@ -14,7 +14,7 @@
 
 # 1. Image of the Home Page :
     
-    ![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/60cf1176-a5bc-4781-88b6-2ad47ef1b2e1)
+![image](https://github.com/mahirpatel7/Tourist-Guide-Application/assets/162891711/60cf1176-a5bc-4781-88b6-2ad47ef1b2e1)
 
 # 2. Image of the Tourist Places videos :
    
