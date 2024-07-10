@@ -1,6 +1,6 @@
 For run this code:
 
-1. First download the code from my github repository.
+# 1. First download the code from my github repository.
 2. Then open android studio and open the folder of tourist guide project.
 3. Now match all the sdk versions and download the required sdk versions.
 4. Then open settings in the mobile and open developer modes in the settings.
